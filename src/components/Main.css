@@ -1,0 +1,232 @@
+/* Global Styles */
+:root {
+  --theme: #06B6D4;
+  --bg-primary: #111827;
+  --bg-secondary: #1F2937;
+  --text-primary: #F3F4F6;
+  --text-secondary: #D1D5DB;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+  padding: 1rem;
+  background-color: var(--bg-primary);
+}
+
+/* Card Styles */
+.ant-card {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-card-head {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-card h2 {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.ant-card p {
+  color: var(--text-secondary);
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+/* Button Styles */
+.btn {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-blue {
+  background-color: var(--theme);
+  color: white;
+  border: none;
+}
+
+.btn-blue:hover {
+  background-color: #0891b2;
+}
+
+/* Table Styles */
+.ant-table {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-table-tbody > tr > td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-secondary) !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Input Styles */
+.input-wrapper {
+  margin-bottom: 1rem;
+}
+
+.input-wrapper p {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+input, .ant-input {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-primary) !important;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+input::placeholder {
+  color: var(--text-secondary);
+}
+
+/* Select Styles */
+.ant-select {
+  background-color: var(--bg-secondary) !important;
+}
+
+.ant-select-selector {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-select-dropdown {
+  background-color: var(--bg-secondary) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-select-item {
+  color: var(--text-primary) !important;
+}
+
+.ant-select-item-option-selected {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Modal Styles */
+.ant-modal-content {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-primary) !important;
+}
+
+.ant-modal-header {
+  background-color: var(--bg-secondary) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.ant-modal-title {
+  color: var(--text-primary) !important;
+}
+
+.ant-modal-close {
+  color: var(--text-primary) !important;
+}
+
+/* Chart Styles */
+.ant-charts {
+  background-color: var(--bg-secondary) !important;
+}
+
+.ant-charts text {
+  fill: var(--text-secondary) !important;
+}
+
+/* No Transactions Styles */
+.no-transactions {
+  color: var(--text-secondary);
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Sign Up/Sign In Container */
+.signup-signin-container {
+  background-color: var(--bg-secondary);
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.blue-text {
+  color: var(--theme);
+}
+
+/* Search Input with Icon */
+.input-flex {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.input-flex input {
+  border: none !important;
+  background: transparent !important;
+  margin-left: 0.5rem;
+}
+
+/* Wrapper */
+.wrapper {
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: var(--bg-primary);
+}
+
+/* Sorting Buttons */
+.sort-buttons button {
+  background-color: var(--bg-secondary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  color: var(--text-primary);
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: var(--bg-hover);
+  color: #111827;
+}
+
+.sort-buttons button:focus {
+  outline: none;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

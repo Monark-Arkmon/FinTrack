@@ -1,0 +1,143 @@
+.blue-text {
+  color: var(--theme);
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+.signup-signin-container {
+  width: 30vw;
+  min-width: 400px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: var(--bg-secondary);
+}
+
+.input-wrapper {
+  margin: 1rem 0rem;
+  width: 100%;
+  color: #ffffff;
+}
+.input-wrapper p {
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.input-wrapper input,
+.custom-input {
+  border: 0px;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  border-radius: 0;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: var(--bg-secondary);
+}
+
+.custom-input {
+  margin-top: -1rem !important;
+  color: #fff;
+}
+
+.input-wrapper input::placeholder,
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input-wrapper input:focus,
+.custom-input:focus {
+  outline: none;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.btn {
+  color: var(--theme);
+  text-align: center;
+  width: 100%;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem !important;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--theme);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+}
+
+.btn:hover {
+  background-color: var(--theme);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.btn-blue {
+  background-color: var(--theme);
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: var(--bg-secondary) !important;
+  color: var(--theme) !important;
+  transition: all 0.3s;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  padding: 0rem 0.5rem;
+}
+
+.input-flex input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0;
+}
+
+.input-flex input:focus {
+  outline: none;
+}
+
+.select-input {
+  width: 30%;
+  margin-right: 10;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem !important;
+  padding: 0.2rem 0.5rem;
+}
+
+.select-input-2 > div {
+  border-width: 0px !important;
+  border-bottom-width: 1px !important;
+  border-radius: 0 !important;
+  border-color: #000 !important;
+}
+
+.select-input > div {
+  border: 0px solid #fff !important;
+}
+
+.my-table {
+  border-radius: 0.5rem !important;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.dashboard-container {
+  padding-bottom: 1rem;
+}
+
+.content-wrapper {
+  padding-top: 4rem;
+}
