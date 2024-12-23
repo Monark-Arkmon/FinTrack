@@ -13,7 +13,6 @@ import { auth, db } from "../firebase";
 import { addDoc, collection, getDocs, query } from "firebase/firestore";
 import Loader from "./Loader";
 import { toast } from "react-toastify";
-import { useNavigate } from "react-router-dom";
 import { unparse } from "papaparse";
 import "./Main.css";
 
@@ -27,8 +26,6 @@ const Dashboard = () => {
   const [currentBalance, setCurrentBalance] = useState(0);
   const [income, setIncome] = useState(0);
   const [expenses, setExpenses] = useState(0);
-
-  const navigate = useNavigate();
 
   const processChartData = () => {
     const balanceData = [];

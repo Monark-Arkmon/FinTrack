@@ -123,7 +123,7 @@ const TransactionSearch = ({
         }}
       >
         <div className="input-flex">
-          <img src={search} width="16" alt="xyz"/>
+          <img src={search} width="25" alt="xyz"/>
           <input
             placeholder="Search by Name"
             onChange={(e) => {
