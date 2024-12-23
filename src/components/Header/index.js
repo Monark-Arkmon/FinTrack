@@ -3,7 +3,7 @@ import "./styles.css";
 import { useNavigate } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../../firebase";
-import userSvg from "../../assets/user.svg";
+import userPng from "../../assets/user.png";
 
 function Header() {
   const [user] = useAuthState(auth);
@@ -30,7 +30,7 @@ function Header() {
       {user ? (
         <div className="navbar-link" onClick={logout}>
           <img
-            src={user.photoURL ? user.photoURL : userSvg}
+            src={user.photoURL ? user.photoURL : userPng}
             width={user.photoURL ? "32" : "24"}
             alt="User Profile"
           />

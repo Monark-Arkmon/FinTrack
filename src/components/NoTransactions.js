@@ -1,5 +1,5 @@
 import React from "react";
-import transactions from "../assets/transactions.svg";
+import transactions from "../assets/transactions.png";
 import "./Main.css";
 
 function NoTransactions() {
