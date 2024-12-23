@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Table, Select } from "antd";
-import search from "../assets/search.svg";
+import search from "../assets/search.png";
 import { parse } from "papaparse";
 import { toast } from "react-toastify";
 import "./Main.css";
